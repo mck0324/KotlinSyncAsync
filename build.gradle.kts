@@ -11,6 +11,7 @@ repositories {
 }
 
 dependencies {
+    implementation ("io.projectreactor:reactor-core:3.6.2")
     implementation ("ch.qos.logback:logback-classic:1.4.14")
     implementation ("io.github.microutils:kotlin-logging:3.0.5")
     testImplementation(kotlin("test"))
