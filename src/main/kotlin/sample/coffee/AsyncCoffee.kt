@@ -13,10 +13,10 @@ private val employee = Schedulers.newSingle("employee")
 
 fun main() {
     measureTimeMillis {
-        Flux.range(1,3).flatMap {
-            makeCoffee()
-        }.subscribeOn(employee).blockLast()
-//        makeCoffee().subscribeOn(employee).block()
+//        Flux.range(1,10).flatMap {
+//            makeCoffee()
+//        }.subscribeOn(employee).blockLast()
+        makeCoffee().subscribeOn(employee).block()
     }.let { logger.debug { ">>커피 만드는데 걸리는 시간: $it ms" } }
 }
 

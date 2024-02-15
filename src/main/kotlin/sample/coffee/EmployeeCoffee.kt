@@ -13,7 +13,7 @@ private val employees = Executors.newFixedThreadPool(3)
 fun main() {
     measureTimeMillis {
 //        makeCoffee()
-        repeat(2) {
+        repeat(1) {
             makeCoffee()
         }
         employees.shutdown()
