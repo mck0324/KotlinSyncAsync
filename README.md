@@ -14,7 +14,7 @@ Syncrhronous와 Asynchronous
 1잔: 커피 만드는데 걸리는 시간: 3025 ms
 10잔: 커피 만드는데 걸리는 시간: 21110 ms
 
-3.NonBlocking I/O를 이용한 Asnyc 의 방식(싱글쓰레드)
+3.NonBlocking를 이용한 Asnyc 의 방식(싱글쓰레드)
 1잔: 커피 만드는데 걸리는 시간: 3066 ms
 10잔: 커피 만드는데 걸리는 시간: 3057 ms
 
